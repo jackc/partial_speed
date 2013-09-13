@@ -3,7 +3,7 @@ class BenchController < ApplicationController
 
   private
   def find_records
-    @records = (1..500).map do |n|
+    @records = 500.times.map do |n|
       rand(10)
     end
   end
