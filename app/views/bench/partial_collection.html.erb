@@ -1,0 +1,7 @@
+<h1>Loop Partial</h1>
+
+<% start_time = Time.now %>
+
+<%= render partial: 'record', collection: @records %>
+
+<h2>Elapsed Time: <%= ((Time.now - start_time) * 1000).to_i %>ms</h2>

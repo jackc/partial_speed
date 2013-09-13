@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>PartialSpeed</title>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<div>
+  <%= link_to 'Loop Partial', loop_partial_path %>
+  |
+  <%= link_to 'Partial Collection', partial_collection_path %>
+  |
+  <%= link_to 'Loop Inline', loop_inline_path %>
+</div>
+
+<%= yield %>
+
+</body>
+</html>

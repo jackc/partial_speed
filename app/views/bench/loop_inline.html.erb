@@ -1,0 +1,9 @@
+<h1>Loop Inline</h1>
+
+<% start_time = Time.now %>
+
+<% @records.each do |r| %>
+  <%= r %>
+<% end %>
+
+<h2>Elapsed Time: <%= ((Time.now - start_time) * 1000).to_i %>ms</h2>

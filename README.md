@@ -1,4 +1,3 @@
-partial_speed
-=============
+== Partial Speed
 
-Benchmark of Rails partial rendering
+This is a test app to benchmark partial rendering performance.
